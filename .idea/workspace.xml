@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7f54b87-7030-4075-820d-213ef3504160" name="Default Changelist" comment="" />
+    <list default="true" id="c7f54b87-7030-4075-820d-213ef3504160" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_22_131522_create_productlines_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_22_131522_create_productlines_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_22_132709_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_22_132709_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_22_132746_create_order_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_22_132746_create_order_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_22_132826_create_employees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_22_132826_create_employees_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_22_132911_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_22_132911_create_customers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_22_132945_create_orders_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_22_132945_create_orders_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_22_133037_create_offices_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_22_133116_create_payments_table.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +24,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -147,7 +164,9 @@
       <workItem from="1603280012089" duration="36000" />
       <workItem from="1603280069847" duration="1884000" />
       <workItem from="1603296353128" duration="606000" />
-      <workItem from="1603363798302" duration="5790000" />
+      <workItem from="1603363798302" duration="6388000" />
+      <workItem from="1603381084758" duration="14240000" />
+      <workItem from="1603396281951" duration="1175000" />
     </task>
     <servers />
   </component>

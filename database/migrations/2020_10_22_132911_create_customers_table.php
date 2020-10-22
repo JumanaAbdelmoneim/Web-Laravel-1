@@ -14,8 +14,19 @@ class CreateCustomersTable extends Migration
     public function up()
     {
         Schema::create('customers', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->unsignedBigInteger('ID');
+            $table->integer('salesRepEmployeeNum');
+            $table->string('Name', '255');
+            $table->string('LastName', '255');
+            $table->string('FirstName', '255');
+            $table->string('Phone', '255');
+            $table->string('Address1', '255');
+            $table->string('Address2', '255');
+            $table->string('City', '255');
+            $table->string('State', '255');
+            $table->string('PostalCode', '255');
+            $table->integer('Country');
+            $table->string('Creditlimit','19,0');
         });
     }
 
