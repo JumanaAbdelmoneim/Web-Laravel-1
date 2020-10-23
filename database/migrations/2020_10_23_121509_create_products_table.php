@@ -14,15 +14,16 @@ class CreateProductsTable extends Migration
     public function up()
     {
         Schema::create('products', function (Blueprint $table) {
-            $table->integer('Code');
+            $table->timestamps();
+            $table->integer('Code')->nullable();
             $table->unsignedBigInteger('ProductlineID')->nullable();
-            $table->string('Name', 255);
+            $table->string('Name');
             $table->integer('Scale');
-            $table->string('vendor', 255);
-            $table->string('PdtDescription', 255);
+            $table->string('vendor');
+            $table->string('PdtDescription');
             $table->integer('QtyinStock');
-            $table->string('BuyPrice', '19,0');
-            $table->string('MSRP', 255);
+            $table->decimal('BuyPrice', 19,0);
+            $table->string('MSRP');
             $table->foreign('ProductlineID')->references('ID')->on('productlines');
         });
     }

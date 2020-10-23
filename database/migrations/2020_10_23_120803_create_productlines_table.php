@@ -14,9 +14,10 @@ class CreateProductlinesTable extends Migration
     public function up()
     {
         Schema::create('productlines', function (Blueprint $table) {
-            $table->unsignedBigInteger('id');
-            $table->string('DesclnText', 255);
-            $table->string('DesclnHTML', 255);
+            $table->timestamps();
+            $table->unsignedBigInteger('id')->nullable();
+            $table->string('DesclnText');
+            $table->string('DesclnHTML');
             $table->string('Image', 100);
         });
     }
